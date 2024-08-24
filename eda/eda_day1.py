@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 
 # Load the dataset and inspect the column names
-df = pd.read_csv('C:/Users/dell/Downloads/new_solar.csv')
+df = pd.read_csv('solar-measurements_zambia-fig-tree_ifc_qc.csv')
 print(df.columns)
 
 # Parse the 'time' column as a datetime object
